@@ -1,0 +1,23 @@
+
+body {
+  font-size: 24px;
+  background: lightgray;
+  color: #000;
+  max-width: 800px;
+  margin: 0 auto;
+}
+a {
+  color: #000;
+  text-decoration: none;
+}
+a:hover {
+  opacity: 0.5;
+}
+li {
+  list-style-type: none;
+  display: inline-block;
+        margin: 0.25em;
+}
+nav {
+  border-bottom: 1px solid;
+}
