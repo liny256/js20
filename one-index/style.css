@@ -1,11 +1,11 @@
-
+html,body{
+  margin:0;
+}
 body {
   font-size: 24px;
   font-family:
   background-color: lightgray;
-  color: #000;
-  max-width: 800px;
-  margin: 0 auto;
+  color: white;
   display: flex;
   flex-direction: column;
 }
@@ -20,6 +20,8 @@ li {
   list-style-type: none;
   display: inline-block;
         margin: 0.25em;
+        margin-top: 0.5em !important;
+        margin-left:0.5em !important;
 }
 nav {
   border-bottom: 1px solid;
@@ -27,13 +29,32 @@ nav {
 
 h1,h2{
   font-family: 'Abril Fatface', cursive;
+  text-align: center;
+  position: absolute;
+  left:20%;
+  top:50%;
+}
+h1{
+  font-size: 72px;
+}
+h2{
+  top:61%;
+  left:calc(20% + 10px);
 }
 
 p,li{
   font-family: 'Roboto', sans-serif;
 }
-div{
+.items{
   background-color: #54696e;
   width: 400px;
   height:200px;
+}
+.result{
+  background-color: none;
+}
+.cover-page{
+  background-image:url("cover-page.jpg");
+  width:100%;
+  height:100vh;
 }

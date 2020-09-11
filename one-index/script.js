@@ -24,12 +24,7 @@ function buildIndex(data){
     // elem.href
 
     var colorBlock= document.createElement("div");
-    item.appendChild(colorBlockL);
-    if(i/2== 1){
-      var colorBlockL= document.createElement("div");
-      item.appendChild(colorBlockL);
-      document.querySelector('.left').appendChild()
-    }
+    item.appendChild(colorBlock);
 
     item.appendChild(elem);
     document.querySelector('.result').appendChild(item);
