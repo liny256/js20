@@ -1,10 +1,13 @@
 
 body {
   font-size: 24px;
-  background: lightgray;
+  font-family:
+  background-color: lightgray;
   color: #000;
   max-width: 800px;
   margin: 0 auto;
+  display: flex;
+  flex-direction: column;
 }
 a {
   color: #000;
@@ -20,4 +23,17 @@ li {
 }
 nav {
   border-bottom: 1px solid;
+}
+
+h1,h2{
+  font-family: 'Abril Fatface', cursive;
+}
+
+p,li{
+  font-family: 'Roboto', sans-serif;
+}
+div{
+  background-color: #54696e;
+  width: 400px;
+  height:200px;
 }
